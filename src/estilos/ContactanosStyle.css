@@ -1,0 +1,30 @@
+.titulo{
+    position: static;
+}
+
+.titulo .descripcion{
+    width: 600px;
+    font-size: 20px;
+}
+
+.logos{
+    width: 45px;
+}
+
+.contactos {
+}
+
+.contactos ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.contactos .listaPadre{
+    margin-top: 100px;
+    display: flex;
+}
+
+.listaHija{
+    margin: 0 50px 0 50px;
+    font-size: 20px;
+}

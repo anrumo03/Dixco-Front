@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+body {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.Header{
+    display: flex;
+}
+
+.Header header{
+    width: 100vw;
+}
+
+.Header ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.Header .link{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.Header .link:active{
+    text-decoration: none;
+    color: black;
+}
+
+.Header h1{
+    float: left;
+    width: 120px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.icono{
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.login{
+    float: right;
+    margin-left: 360px;
+}
+
+.register{
+    margin-right: 20px;
+}
+
+.Header li:hover{
+    background-color: #c86bfa;
+    border-radius: 10px;
+}
+
+.Header a{
+    text-decoration: inherit;
+    color: black;
+}
