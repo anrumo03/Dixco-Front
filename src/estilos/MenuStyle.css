@@ -1,0 +1,75 @@
+.menu-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-container h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 160px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.menu-container h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.menu-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-container li {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.prices {
+    font-weight: bold;
+}
+
+.categorias{
+    display: flex;
+}
+
+.ultimoB{
+    margin-left: 50px;
+}
+
+.ultimoCm{
+    padding-left: 20px;
+}
+
+.ultimoC{
+    padding-left: 3px;
+}
+
+.ultimoL{
+    padding-left: 70px;
+}
+
+.ultimoCe{
+    padding-left: 65px;
+}
+
+.containerCat{
+    margin-right: 30px;
+}
+
+.nombres{
+    text-align: left;
+}

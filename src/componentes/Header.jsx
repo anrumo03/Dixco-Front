@@ -20,15 +20,15 @@ function Header(){
                                                      className="icono"/>
                             </li>
                             <li>
-                                <a>Menú</a><img src="https://cdn-icons-png.flaticon.com/128/3187/3187844.png"
+                                <a href="/menu">Menú</a><img src="https://cdn-icons-png.flaticon.com/128/3187/3187844.png"
                                                 className="icono"/>
                             </li>
                             <li>
-                                <a>Reservas</a><img src="https://cdn-icons-png.flaticon.com/128/2356/2356937.png"
+                                <a href="/solicitud">Reservas</a><img src="https://cdn-icons-png.flaticon.com/128/2356/2356937.png"
                                                     className="icono"/>
                             </li>
                             <li className="login"><a href="/iniciarsesion">Iniciar Sesión</a></li>
-                            <li className="register"><a>Registrarse</a></li>
+                            <li className="register"><a href="/registrar">Registrarse</a></li>
                         </ul>
                     </nav>
                 </header>

@@ -1,0 +1,8 @@
+.tabla{
+    width: 70%;
+    margin: 20px 0;
+}
+
+.tabla tr:hover{
+    background-color: rgb(200, 107, 250, 0.7);
+}

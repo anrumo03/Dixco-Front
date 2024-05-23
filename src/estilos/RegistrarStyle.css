@@ -1,0 +1,33 @@
+.listaforml{
+    width: 300px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.listaforml input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    padding: 0;
+}
+
+.listaforml li{
+    margin: 0 20px 0 20px;
+}
+
+.botonRegistrar{
+    background-color: #a43fb5;
+    color: white;
+    text-align: center;
+    border-style: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.formularioR{
+    text-align: center;
+    width: 60vw;
+}

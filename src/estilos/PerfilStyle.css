@@ -1,0 +1,18 @@
+.tablaCont{
+    margin-left: 320px;
+}
+
+.categoriasPer{
+    list-style: none;
+    padding: 0;
+}
+
+.cat{
+    height: 30px;
+    width: 50%;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgb(255, 238, 50, 0.6);
+}

@@ -1,0 +1,35 @@
+.tarjetaServ{
+    height: 130px;
+    margin-left: 140px;
+    border-radius: 20px;
+    width: 450px;
+    background-color: rgb(243, 198, 114);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tarjetaCuer{
+    text-align: left;
+    margin-top: -10px;
+    padding-left: 20px;
+    width: 250px;
+}
+
+.tarjetaCont{
+    display: flex;
+}
+
+.tarjetaBox{
+    margin-top: -15px;
+    text-align: right;
+    margin-left: 75px;
+}
+
+.tarjetaBox input{
+    transform: scale(1.5);
+}
+
+.botonServ{
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 120px;
+}

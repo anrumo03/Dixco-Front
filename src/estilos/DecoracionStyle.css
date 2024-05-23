@@ -1,0 +1,23 @@
+.tarjetaDeco{
+    height: 130px;
+    margin-left: 140px;
+    border-radius: 20px;
+    width: 1000px;
+    background-color: rgb(243, 198, 114);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tarjetaTitu{
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.tarjetaOps{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.boxes{
+    margin-right: 20px;
+}

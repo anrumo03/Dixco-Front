@@ -1,0 +1,15 @@
+.tarjetas{
+    padding-top: 0px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.tarjetas ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.servicios{
+    margin-left: -40px;
+}

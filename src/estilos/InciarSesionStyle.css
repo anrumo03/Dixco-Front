@@ -1,0 +1,64 @@
+.header{
+    height: 60px;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.salir{
+    width: 40px;
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.Contenido ul{
+    list-style: none;
+    padding: 0;
+}
+
+.subtitulo{
+    display: flex;
+}
+
+.subtitulo li{
+    margin: 0 10px 0 10px;
+}
+
+.link{
+    font-style: italic;
+    text-decoration: underline;
+    color: #a320b3;
+}
+
+.listaform{
+    width: 300px;
+}
+
+.listaform li{
+    margin-bottom: 15px;
+}
+
+.etiqueta{
+    text-align: left;
+}
+
+.listaform input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    padding: 0;
+}
+
+.botonIniciar{
+    background-color: #a43fb5;
+    color: white;
+    text-align: center;
+    border-style: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 0;
+}
