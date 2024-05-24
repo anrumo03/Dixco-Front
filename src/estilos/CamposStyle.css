@@ -1,0 +1,25 @@
+.listaCamp{
+    list-style: none;
+}
+
+.listaCamp li{
+    padding-bottom: 10px;
+}
+
+.listaOcult{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.listaOcult li{
+    padding-bottom: 0;
+    margin-left: 0;
+    height: 30px;
+}
+
+.listaOcult li:last-child{
+    text-align: left;
+    padding-top: 2px;
+    width: 100px;
+}

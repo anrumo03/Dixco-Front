@@ -14,6 +14,7 @@ import Menu from "./componentes/Menu";
 import ListaEspera from "./componentes/ListaEspera";
 import ServiciosEspeciales from "./componentes/ServiciosEspeciales";
 import Perfil from "./componentes/Perfil";
+import Mesas from "./componentes/Mesas";
 import './App.css';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
               <Route exact path="/lista" element={<ListaEspera/>}/>
               <Route exact path="/servicios" element={<ServiciosEspeciales/>}/>
               <Route exact path="/perfil" element={<Perfil/>}/>
+              <Route exact path="/mesas" element={<Mesas/>}/>
            </Routes>
       </BrowserRouter>
     </div>

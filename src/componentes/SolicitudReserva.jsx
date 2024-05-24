@@ -23,7 +23,7 @@ function SolicitudReserva(){
     };
 
     const redireccion = () => {
-        navigate('/');
+        navigate('/servicios');
     };
 
     return(
@@ -102,10 +102,8 @@ function SolicitudReserva(){
                             <button onClick={closeModal} className="botonModal">Cerrar</button>
                             <button onClick={redireccion} className="botonModal">Confirmar</button>
                         </div>
-
                     </Modal>
                 </div>
-
             </div>
         </div>
     );

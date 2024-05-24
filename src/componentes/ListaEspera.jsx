@@ -10,19 +10,13 @@ function ListaEspera(){
 
     const [startDate, setStartDate] = useState(new Date());
 
-    const [isOpen, setIsOpen] = useState(false);
-
     const navigate = useNavigate();
 
-    const openModal = () => {
-        setIsOpen(true);
+    const redireccion1 = () => {
+        navigate('/mesas');
     };
 
-    const closeModal = () => {
-        setIsOpen(false);
-    };
-
-    const redireccion = () => {
+    const redireccion2 = () => {
         navigate('/');
     };
 
@@ -84,8 +78,8 @@ function ListaEspera(){
                         </li>
                     </ul>
                     <div className="botones">
-                        <button onClick={closeModal} className="botonLista">Volver</button>
-                        <button onClick={redireccion} className="botonLista">Apuntarse</button>
+                        <button onClick={redireccion1} className="botonLista">Volver</button>
+                        <button onClick={redireccion2} className="botonLista">Apuntarse</button>
                     </div>
                 </div>
 

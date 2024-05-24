@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Modal from "react-modal";
+import Campos from "./Campos";
 import "../estilos/PerfilStyle.css"
 import Tabla from "./Tabla"
 
@@ -117,7 +118,7 @@ function Perfil(){
             </ul>
             {categoria == "Info" ?
                 (
-                    <div>HOLA</div>
+                    <div><Campos/></div>
                 )
                 :
                 (

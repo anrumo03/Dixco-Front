@@ -1,6 +1,7 @@
 .listaforml{
     width: 300px;
     display: flex;
+    list-style: none;
     margin-bottom: 40px;
 }
 

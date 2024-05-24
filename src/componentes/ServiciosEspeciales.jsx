@@ -1,9 +1,16 @@
 import React from "react";
 import Decoracion from "./Decoracion";
 import TarjetaServicios from "./TarjetaServicios";
+import {useNavigate} from 'react-router-dom';
 import "../estilos/ServiciosStyle.css"
 
 function ServiciosEspeciales(){
+
+    const navigate = useNavigate();
+
+    const redireccion = () => {
+        navigate('/');
+    };
 
     return (
         <div>
@@ -32,7 +39,7 @@ function ServiciosEspeciales(){
                 </li>
             </ul>
             <div className="botonServ">
-                <button className="botonLista">Finalizar Reserva</button>
+                <button className="botonLista" onClick={redireccion}>Finalizar Reserva</button>
             </div>
 
 
